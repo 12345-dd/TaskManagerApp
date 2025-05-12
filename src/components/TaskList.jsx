@@ -27,7 +27,7 @@ const TaskList = () => {
 
   const handleDelete = async (id) => {
     await axios.delete(`https://taskmanagerbackend-3t9s.onrender.com/tasks/${id}`);
-    fetchTasks();
+    setTasks(prevTasks => prevTasks.filter(task => task._id !== id));
   };
 
   const handleSubmit = async (data) => {
