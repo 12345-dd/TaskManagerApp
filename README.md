@@ -14,7 +14,7 @@ A full-stack task management application using Node.js, Express, MongoDB, React.
 
 **Frontend**: React.js, Material UI, react-hook-form  
 **Backend**: Node.js, Express.js, MongoDB (Mongoose)  
-**Deployment**: Frontend on Vercel | Backend on Render/Node Cluster
+**Deployment**: Frontend on Netlify | Backend on Render
 
 ## Database Design
 
