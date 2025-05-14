@@ -15,9 +15,8 @@ const TaskForm = ({ open, onClose, onSubmit, initialData }) => {
     register,
     handleSubmit,
     reset
-  } = useForm(); // <-- remove defaultValues from here
+  } = useForm();
 
-  // Ensure reset with current task data
   useEffect(() => {
     reset({
       title: initialData?.title || '',
